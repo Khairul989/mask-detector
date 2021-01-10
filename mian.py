@@ -22,9 +22,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 # cap.destroyAllWindows()
 
 #Scoring
-apikey = 'r698aMTiJ_wRRiDzTq48nFXqn1pQrXBIlyYb-N_mhzO0'
-url = 'https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/6bdd40fd-b851-4d76-b9f9-919fe01b38d2'
-collection = 'b22686c0-e62b-4d74-911d-629f798d40dc'
+
 
 authenticator = IAMAuthenticator(apikey)
 service = VisualRecognitionV4('2021-01-11', authenticator=authenticator)
